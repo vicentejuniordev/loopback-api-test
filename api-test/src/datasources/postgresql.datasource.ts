@@ -5,10 +5,10 @@ const config = {
   name: 'postgresql',
   connector: 'postgresql',
   url: '',
-  host: 'postgresql.docker',
-  port: 5000,
-  user: 'root',
-  password: 'root',
+  host: 'postgresql',
+  port: 5432,
+  user: 'postgres',
+  password: 'postgres',
   database: 'dev_aws'
 };
 
